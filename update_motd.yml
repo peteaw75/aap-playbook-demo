@@ -1,4 +1,5 @@
 ---
+
 - name: Demo - Copy MOTD file to clients
   hosts: *
   
