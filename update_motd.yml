@@ -1,0 +1,12 @@
+---
+- name: Demo - Copy MOTD file to clients
+  hosts: *
+  
+  tasks:
+    - name: Copy the MOTD file to the clients
+      template: 
+        src: templates/motd.j2
+	    dest: /etc/motd
+
+    tags:
+      - motd_config
