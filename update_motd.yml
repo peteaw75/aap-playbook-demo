@@ -1,7 +1,7 @@
 ---
 
 - name: Demo - Copy MOTD file to clients
-  hosts: *
+  hosts: all
   
   tasks:
     - name: Copy the MOTD file to the clients
