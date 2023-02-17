@@ -9,5 +9,5 @@
         src: templates/motd.j2
         dest: /etc/motd
 
-    tags:
+      tags:
       - motd_config
