@@ -2,6 +2,8 @@
 
 - name: Demo - Copy MOTD file to clients
   hosts: all
+  vars_files:
+    - vars/main.yml
   
   tasks:
     - name: Copy the MOTD file to the clients
