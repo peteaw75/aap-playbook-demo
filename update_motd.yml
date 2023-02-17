@@ -7,7 +7,7 @@
     - name: Copy the MOTD file to the clients
       template: 
         src: templates/motd.j2
-	    dest: /etc/motd
+        dest: /etc/motd
 
     tags:
       - motd_config
